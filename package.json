@@ -1,0 +1,38 @@
+{
+  "name": "sanitize-js-object",
+  "version": "0.0.1",
+  "description": "Sanitize js object getter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "precommit": "git add -A && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwdgit/sanitize-js-object.git"
+  },
+  "keywords": [
+    "js",
+    "object",
+    "getter"
+  ],
+  "author": "lwdgit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwdgit/sanitize-js-object/issues"
+  },
+  "homepage": "https://github.com/lwdgit/sanitize-js-object#readme",
+  "dependencies": {
+    "acorn": "^5.0.3",
+    "acorn-es7": "^0.1.0",
+    "acorn-jsx": "^4.0.1",
+    "acorn-object-rest-spread": "^1.0.1",
+    "acorn-static-class-property-initializer": "^1.0.0",
+    "estree-walker": "^0.4.0",
+    "magic-string": "^0.21.3"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "husky": "^0.14.1"
+  }
+}
